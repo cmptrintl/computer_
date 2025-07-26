@@ -86,3 +86,30 @@ footer {
     font-size: 13px;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #333;
+    color: #eee;
+  }
+
+  a {
+    color: #eee;
+  }
+
+  a:hover {
+    color: #eee;
+  }
+
+  h1, h2, h3 {
+    color: #eee;
+  }
+
+  li::before {
+    color: #888;
+  }
+
+  .ascii-art {
+    color: #0f0; /* Optional: ASCII grün leuchten lassen */
+  }
+}
