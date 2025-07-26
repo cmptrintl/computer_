@@ -1,3 +1,4 @@
+/* === Base Styles === */
 body {
   background-color: #fff;
   color: #000;
@@ -14,6 +15,7 @@ body {
   padding: 0;
   overflow: hidden;
   clip: rect(0 0 0 0);
+  white-space: nowrap;
   border: 0;
 }
 
@@ -21,15 +23,19 @@ body {
   overflow-x: auto;
   white-space: pre;
   margin-bottom: 2rem;
-  line-height: 1; /* tighter for ASCII block */
+  line-height: 1;
   text-align: center;
 }
+
+/* === Typography === */
+h1 { font-size: 1.3rem; }
+h2 { font-size: 1.1rem; }
+h3 { font-size: 1rem; }
 
 ul {
   list-style: none;
   padding-left: 1.5rem;
-  margin-top: 0.5rem;
-  margin-bottom: 1.5rem;
+  margin: 0.5rem 0 1.5rem;
 }
 
 li::before {
@@ -37,20 +43,9 @@ li::before {
   margin-left: -1rem;
 }
 
-h1 {
- font-size: 1.3rem;
-}
-
-h2 {
- font-size: 1.1rem;
-}
-
-h3 {
- font-size: 1rem;
-}
-
+/* === Links === */
 a {
-  color: #000;
+  color: inherit;
   text-decoration: none;
 }
 
@@ -58,21 +53,13 @@ a:hover {
   text-decoration: underline;
 }
 
+/* === Navigation & Footer === */
 nav {
   font-weight: bold;
 }
 
 nav a {
   margin: 0 0.5em;
-  text-decoration: none;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-address {
-  margin-bottom: 1em;
 }
 
 footer {
@@ -80,6 +67,11 @@ footer {
   text-align: center;
 }
 
+address {
+  margin-bottom: 1em;
+}
+
+/* === Responsive === */
 @media (max-width: 600px) {
   body {
     padding: 1rem;
@@ -87,6 +79,7 @@ footer {
   }
 }
 
+/* === Dark Mode === */
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #333;
@@ -94,10 +87,6 @@ footer {
   }
 
   a {
-    color: #eee;
-  }
-
-  a:hover {
     color: #eee;
   }
 
@@ -110,6 +99,6 @@ footer {
   }
 
   .ascii-art {
-    color: #0f0; /* Optional: ASCII grün leuchten lassen */
+    color: #0f0;
   }
 }
