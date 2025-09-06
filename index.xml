@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on My New Hugo Site</title><link>https://example.org/</link><description>Recent content in Home on My New Hugo Site</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml"/><item><title>ABOUT</title><link>https://example.org/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/about/</guid><description>&lt;p>We are I AM COMPUTER_ — technical operators with over three decades of real-world experience across systems architecture, network engineering, IT support, design, and advanced hardware integration.&lt;/p>
+&lt;p>We solve complex problems with speed, clarity, and precision — from building secure infrastructure to recovering critical systems and delivering custom-built solutions that others won’t touch.&lt;/p>
+&lt;p>We value uptime, clean execution, and trust. When failure is not an option, we’re your failsafe.&lt;/p>
+&lt;pre tabindex="0">&lt;code>
+operator.level: senior
+protocols: systems | networks | design | hardware
+status: always online
+&lt;/code>&lt;/pre>&lt;p>We fix what breaks. We build what doesn’t exist yet.
+No noise. Just efficient, tailored results.&lt;/p></description></item><item><title>TERMS</title><link>https://example.org/terms/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/terms/</guid><description>&lt;p>Billing &amp;amp; Payment Terms
+All services are billed in Canadian Dollars (CAD).
+Invoices are payable via Interac e-Transfer or debit/credit card.
+Alternate payment methods available upon request.&lt;/p>
+&lt;p>Unless otherwise agreed in writing, all work is treated as confidential and may not be disclosed, published, or redistributed.&lt;/p>
+&lt;p>Intellectual Property &amp;amp; Usage Rights
+All deliverables remain the exclusive property of CMPTR INTL INC. until full payment is received.
+Upon settlement, clients are granted the agreed usage rights — including source files and production assets, unless stated otherwise.&lt;/p></description></item></channel></rss>
