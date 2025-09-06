@@ -6,19 +6,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://iamcomputer.ca/categories/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://iamcomputer.ca/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://iamcomputer.ca/services/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://iamcomputer.ca/tags/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
